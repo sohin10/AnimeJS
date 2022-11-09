@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
           .add(
             {
-             targets: ".text_wrapper, .download",
+             targets: ".text_wrapper, .download ",
              translateX:[200,0],
              opacity: [0 ,1],
              duration: 1500
@@ -73,5 +73,16 @@ document.addEventListener("DOMContentLoaded", () => {
             },
             "-=1000"
            )
+
+           .add(
+            {
+             targets: ".home",
+             translateX:[200,0],
+             opacity: [0 ,1],
+             duration: 1500
+            },
+            "-=3000"
+           );
+           
     });
 });
